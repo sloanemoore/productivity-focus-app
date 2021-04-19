@@ -16,6 +16,7 @@ export default function retrieveWeather(
   }
   const weatherCity = city.toLowerCase().trim();
   const weatherState = state.toLowerCase().trim();
+
   fetch(
     `/.netlify/functions/openweather_api?weatherCity=${weatherCity}&weatherState=${weatherState}`
   )
@@ -30,10 +31,6 @@ export default function retrieveWeather(
         setState(state.toUpperCase());
         setWeatherImage(data.list[0].weather[0].icon);
         setWeatherTemp(data.list[0].main.temp);
-        // if (weatherBlockRef && weatherBlockRef.current) {
-        //   weatherBlockRef.current.style.display = "block";
-        //   weatherBlockRef.current.style.visibility = "visible";
-        // }
       }
     })
     .catch((error) => {

@@ -11,3 +11,5 @@ In the bottom right corner, there is a todo list where you can add new tasks. Wh
 At the bottom left, you can view the image credit for the current image being displayed in the background. I used the <a href="https://unsplash.com/developers">Unsplash API</a> to retrieve attractive landscape images. If you click on the “gear” icon in this section, a popup appears where you can change the image.
 
 Finally if you click on the About the Developer section, you can get quick access to <a href="https://nowcodethis.com/">my website</a> and my social media profiles. Reach out and let me know what you think–I’d love to hear from you!
+
+You can view this project <a href="https://nowcodethis-productivity-focus-app.netlify.app">here</a>

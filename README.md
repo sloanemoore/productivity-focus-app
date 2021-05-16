@@ -2,6 +2,8 @@
 
 The productivity focus app puts everything you need to get things done right at your fingertips.
 
+<a href="https://nowcodethis-productivity-focus-app.netlify.app">![Productivity Focus App](screenshots/productivity-focus-app.png "Productivity Focus App")</a>
+
 In the main section of the productivity focus app, you can view the local date and time and customize the greeting with your name. This greeting will change depending on the time of day. You can also set a main focus goal for the day.
 
 In the weather section, you can set your location at the top right by clicking on “Set weather.” After setting your location, your local weather will display. I used the <a href="https://openweathermap.org/api">Open Weather API</a> to retrieve weather data.
